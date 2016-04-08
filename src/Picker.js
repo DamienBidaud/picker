@@ -139,7 +139,7 @@
             id_officePicker = id_office;
             var confirm = [];
             $.ajax({
-                url:"serveur/getTimeDispo.php",
+                url:"",
                 async:false,
                 dataType:"JSON",
                 method:"post",
@@ -254,7 +254,7 @@
             div.className = "table";
             var confirm = [];
             $.ajax({
-                url:"serveur/getHalfDayDispo.php",
+                url:"",
                 async:false,
                 dataType:"JSON",
                 method:"post",
@@ -401,7 +401,7 @@
             id_officePicker = id_office;
             var confirm = [];
             $.ajax({
-                url:"serveur/getCalendarDispo.php",
+                url:"",
                 async:false,
                 dataType:"JSON",
                 method:"post",
