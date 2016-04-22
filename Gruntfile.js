@@ -4,10 +4,10 @@ module.exports = function(grunt){
     grunt.initConfig({
         webpack:{
             reservation:{
-                entry:"./src/index.js",
+                entry:"./src/esc6/src/Picker.js",
                 output:{
-                    path:"out",
-                    filename:"index.js"
+                    path:"./src/esc6/out",
+                    filename:"Picker.js"
                 },
                 module:{
                     loaders:[
